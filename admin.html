@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>GlobeSwift Admin Portal</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#111;
+color:white;
+text-align:center;
+}
+
+.container{
+background:white;
+color:black;
+padding:30px;
+width:400px;
+margin:auto;
+border-radius:10px;
+}
+
+input{
+padding:10px;
+width:90%;
+margin:5px;
+}
+
+button{
+padding:10px;
+background:orange;
+border:none;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>GlobeSwift Logistics Admin</h1>
+
+<div class="container">
+
+<input id="tracking" placeholder="Tracking Code">
+
+<input id="status" placeholder="Status">
+
+<input id="origin" placeholder="Origin">
+
+<input id="destination" placeholder="Destination">
+
+<input id="delivery" placeholder="Delivery Date">
+
+<button onclick="addShipment()">Add Shipment</button>
+
+</div>
+
+<script>
+
+function addShipment(){
+
+alert("Add this shipment inside Google Sheets database");
+
+}
+
+</script>
+
+</body>
+
+</html>
