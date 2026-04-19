@@ -64,7 +64,7 @@ function trackShipment(){
 
 var code=document.getElementById("trackingCode").value;
 
-var api="PASTE_YOUR_API_LINK_HERE?code="+code;
+var api="https://script.google.com/macros/s/AKfycbxK7Eos7NKUmC3r4Lu5thhyivO50A_Ap2GLNJF9bSbbOeIfiFe-M-Ea4dlrm6uRQyLAlA/exec?code="+code;
 
 fetch(api)
 .then(response=>response.json())
